@@ -1,0 +1,71 @@
+body{
+    background:url(photo/tree.jpg);
+    background-size: cover;
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    width:360px;
+    padding: 33px;
+    text-align: center;
+    background-color: transparent;
+    margin-left: 40%;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+}
+.container:hover{
+    border: 5px solid #fff;
+}
+.container h1{
+    color: #fff;
+    text-shadow: 3px 3px 3px black;
+}
+input{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(6, 56, 56)
+    
+}
+input:hover{
+    border: 2px solid orange;
+}
+button{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(6, 56, 56);
+    color: #fff;
+    border: 2px solid white;
+}
+button:hover{
+    background-color: orange;
+}
+.text ul{
+ 
+    width: 300px;
+    height: 20px;
+    background-color: rgb(6, 56, 56);
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    
+}
+.text ul:hover{
+    box-shadow: 3px 3px 3px black;
+background-color: orange;
+}
+.text ul i{
+    margin-bottom: 25px;
+    margin-left: 250px;
+    font-size: larger;
+
+   
+  
+}
+.text ul i:hover{
+    transform: scale(2);
+}
+
